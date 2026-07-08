@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  background: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+#screen {
+  padding: 20px;
+  text-align: center;
+}
+
+.circle-btn {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: #FFD600;
+  border: 8px solid #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#bottom-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #111;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+.nav-item {
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.gallery-item {
+  background: #222;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+}
